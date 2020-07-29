@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+body {
+    background-color: black;
+    color: white;
+
+}
+
+h1 {
+    font-size: 600%;
+    text-align: center;
+
+}
+
+#first {
+    border: solid 1.5px white;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+#first td {
+    border: solid 1.5px white;
+    padding: 0.5em;
+    font-size: 250%;
+}
+
+#fee {
+    color: darkorchid;
+    font-weight: bold;
+
+}
+
+h5 {
+    text-align: right;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+#second td {
+    font-size: 100%;
+    padding: 1em 0em;
+}
+
+span {
+    color: fuchsia;
+    font-weight: bold;
+}
+
+#third {
+    border: solid 1.5px white;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 3em;
+    text-align: center;
+
+}
+
+#third th {
+    border: solid 1.5px white;
+    padding: 0.5em;
+    font-size: 120%;
+}
+
+#third td {
+    border: solid 1.5px white;
+    padding: 0.5em;
+    font-size: 120%;
+}
+
+.btn-partial-line {
+    position: relative;
+    left: 36%;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    border-bottom: solid 3px white;
+    border-left: solid 3px white;
+    color: white;
+    transition: .4s;
+
+}
+
+.btn-partial-line:hover {
+    padding-left: 0.7em;
+    padding-right: 0.3em;
+}

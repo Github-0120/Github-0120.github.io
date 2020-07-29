@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+    <link rel="stylesheet" href="CSS/basic2.css">
+    <meta name="keywords" content="html, css, javascript" />
+    <title>Final Task </title>
+
+</head>
+
+<body>
+    <h2>お客様情報</h2>
+    <form action="index2.html" method="get">
+        <p>
+            <label for="lastname">姓:
+            </label>
+            <input type="text" name="lastname" id=lastname placeholder="lastname" required />
+
+            <label for="familyname"> 名:
+                <input type="text" name="firstname" id=familyname placeholder="familyname" required>
+            </label>
+
+
+
+        </p>
+        <p>
+            <label for="birthday">生年月日:</label>
+            <input type="date" name="calendar">
+
+        </p>
+
+        <p>
+            <label> <input type="radio" name="gender" value="male"/>女性 </label>
+
+            <label>
+                <input type="radio" name="gender" value="male" />
+                男性
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="other" />
+                その他 </label>
+        </p>
+        <p>
+            <label for="address">郵便番号:</label>
+            <input type="text" name="zip21" size="4" maxlength="3"> － <input type="text" name="zip22" size="5" maxlength="4" onKeyUp="AjaxZip3.zip2addr('zip21','zip22','addr21','addr21');">
+            <input type="text" name="addr21" size="40" placeholder="郵便番号を入れると自動で出ます" required>
+
+        </p>
+        <p>
+            <label for="e-mail">メールアドレス:</label>
+            <input type="email" name="address" id="e-mail" />
+        </p>
+        <p>
+            <label for="tel">電話番号:</label>
+            <input type="tel" id="tel" />
+        </p>
+        <p>
+            <label for="card_number">カード番号:
+            </label>
+            <input type="text" name="card_number" id=curd_number />
+        </p>
+        <p>
+            <label>
+                カードの暗証番号:
+                <input type="password" name="password" required>
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="送信する" />
+            <input type="reset" value="リセット" />
+        </p>
+
+
+
+
+
+
+    </form>
+    <hr>
+    <a class="btn-partial-line" onclick="clickEvent2()">
+        前ページに戻る
+    </a>
+
+    <script src="JS/basic.js"></script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+body {
+    background-color: black;
+    color: white;
+
+}
+
+label {
+    font-size: 100%;
+
+}
+
+h2 {
+    position: relative;
+    left: 10%;
+}
+
+
+input[type="submit"] {
+    position: relative;
+    left: 7%;
+    border-radius: 6px;
+    color: black;
+}
+
+input[type="reset"] {
+    position: relative;
+    left: 8%;
+    border-radius: 6px;
+    color: black;
+}
+
+.btn-partial-line {
+    position: relative;
+    left: 10%;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    border-bottom: solid 3px white;
+    border-left: solid 3px white;
+    color: white;
+    transition: .4s;
+
+}
+
+.btn-partial-line:hover {
+    padding-left: 0.7em;
+    padding-right: 0.3em;
+}
+
